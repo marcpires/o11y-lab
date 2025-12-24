@@ -1,0 +1,22 @@
+service:
+  flush: 1
+  log_level: info
+
+pipeline:
+  inputs:
+    - name: dummy
+      dummy: '{ "hello": "world" }'
+      tag: srv_dummy_stage
+
+    - name: dummy
+      dummy: '{ "more": "stuff" }'
+      tag: srv_dummy2_stage
+
+  outputs:
+    - name: stdout
+      match: '*'
+
+    - name: stdout
+      match: '*'
+      format: json
+      json_date_format: iso8601

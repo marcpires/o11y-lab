@@ -1,0 +1,10 @@
+[1m[[0m2025/12/24 09:02:54.599798638[1m][0m [[92m info[0m] [fluent bit] version=4.2.2, commit=, pid=491089
+[1m[[0m2025/12/24 09:02:54.599999220[1m][0m [[92m info[0m] [storage] ver=1.5.4, type=memory, sync=normal, checksum=off, max_chunks_up=128
+[1m[[0m2025/12/24 09:02:54.600013164[1m][0m [[92m info[0m] [simd    ] SSE2
+[1m[[0m2025/12/24 09:02:54.600020412[1m][0m [[92m info[0m] [cmetrics] version=1.0.6
+[1m[[0m2025/12/24 09:02:54.600026250[1m][0m [[92m info[0m] [ctraces ] version=0.6.6
+[1m[[0m2025/12/24 09:02:54.600102333[1m][0m [[92m info[0m] [sp] stream processor started
+[1m[[0m2025/12/24 09:02:54.600206326[1m][0m [[92m info[0m] [engine] Shutdown Grace Period=5, Shutdown Input Grace Period=2
+[1m[[0m2025/12/24 09:03:06.514287878[1m][0m [[93m warn[0m] [engine] service will shutdown in max 5 seconds
+[1m[[0m2025/12/24 09:03:06.514384053[1m][0m [[92m info[0m] [engine] pausing all inputs..
+[1m[[0m2025/12/24 09:03:07.503914646[1m][0m [[92m info[0m] [engine] service has stopped (0 pending tasks)
