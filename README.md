@@ -7,7 +7,7 @@
 - pre-commit
 
 ## Organization
-
+```sh
 fluent-bit/config
 ├── input
 │   ├── docker.conf
@@ -22,7 +22,7 @@ fluent-bit/config
     ├── dummys
             dummy.conf
         └── main.conf
-
+```
 *services*: Service configuration
 *input*: Inputs configuration
 *output*: Outputs configuration
